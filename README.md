@@ -27,7 +27,7 @@ The data was divided into training and testing sets. The test dataset contains 1
 
 ## c. GitHub Repository Link
 
-https://github.com/2025ac05890-Deepika/ml-assignment-2-breast-cancer
+https://github.com/2025ac05890-Deepika/ml-assignment-2-breast-cancer/tree/main
 
 ## d. Models Used & Evaluation Metrics
 
