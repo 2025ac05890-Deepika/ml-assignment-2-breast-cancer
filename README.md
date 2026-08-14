@@ -52,14 +52,4 @@ The dataset was evaluated using five different classification algorithms. The mo
 | **Random Forest (Ensemble)** | Achieved an Accuracy of **0.9561** and a high AUC of **0.9937**. Its Recall of **0.9722** and F1 Score of **0.9655** demonstrate strong classification performance. |
 | **Overall Winner** | **Logistic Regression** is selected as the overall winner based on the current test results. It achieved the highest Accuracy (**0.9825**), Precision (**0.9861**), Recall (**0.9861**), F1 Score (**0.9861**), and MCC (**0.9623**). It also achieved a very high AUC of **0.9954**. |
 
-## f. Training vs Testing Accuracy
 
-| ML Model Name | Training Accuracy | Testing Accuracy | Difference |
-| :--- | :---: | :---: | :---: |
-| **Logistic Regression** | 0.9890 | 0.9825 | 0.0065 |
-| **Decision Tree** | 1.0000 | 0.9123 | 0.0877 |
-| **KNN** | 0.9736 | 0.9561 | 0.0175 |
-| **Gaussian Naive Bayes** | 0.9407 | 0.9386 | 0.0021 |
-| **Random Forest** | 1.0000 | 0.9561 | 0.0439 |
-
-The training and testing accuracies are relatively close for Logistic Regression, KNN, and Gaussian Naive Bayes, indicating good generalization. The Decision Tree has the largest training-testing difference, suggesting comparatively greater overfitting. Random Forest also shows a noticeable difference between training and testing accuracy because it achieved perfect training accuracy while its testing accuracy was lower.
