@@ -175,7 +175,6 @@ y_test = test_data[target_column]
 if selected_model in [
     "Logistic Regression",
     "kNN",
-    "Naive Bayes"
 ]:
 
     X_input = scaler.transform(X_test)
